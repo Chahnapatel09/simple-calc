@@ -7,7 +7,7 @@ public class CalculatorTest {
         System.out.println("Add Test: " + (calc.add(5, 3) == 8));
 
         // Test Case 2
-        System.out.println("Subtract Test: " + (calc.subtract(10, 4) == 6));
+        System.out.println("Subtract Test (HOTFIX): " + (calc.subtract(10, 4) == 6));
 
         // Test Case 3
         System.out.println("Multiply Test: " + (calc.multiply(6, 2) == 12));
