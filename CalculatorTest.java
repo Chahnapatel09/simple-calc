@@ -15,5 +15,13 @@ public class CalculatorTest {
         // Test Case 4
         System.out.println("Divide Test: " + (calc.divide(8, 2) == 4));
 
+        // Test Case 5: Divide by 0 exception
+        try {
+            calc.divide(5, 0);
+            System.out.println("Divide by 0 Test: Failed");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Divide by 0 Test: Passed");
+        }
+
     }
 }
