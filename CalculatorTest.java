@@ -23,5 +23,7 @@ public class CalculatorTest {
             System.out.println("Divide by 0 Test: Passed");
         }
 
+        System.out.println("REBASE DEMO: feature branch change");
+
     }
 }
